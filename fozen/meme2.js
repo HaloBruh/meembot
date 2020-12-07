@@ -5,7 +5,7 @@ const db = require("wio.db")
 
 exports.run = async (client, message, args, tools) => {
   
-const subReddits = ["dankmeme", "meme", "me_irl", "dankmemes"];
+const subReddits = ["dankmeme", "meme", "me_irl", "dankmemes", "teenagers", "turkeyjerky", "cursedcomments", "suspiciouslyspecific", "comedyhomicide"];
 const random = subReddits[Math.floor(Math.random() * subReddits.length)];
 
 const spectrum = await rp(random);
