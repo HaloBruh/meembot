@@ -52,4 +52,13 @@ fs.readdir("./fozen2/", (err, files) => {
   });
 });
 
-client.login(config.token);
+client.login(process.env.TOKEN);
+
+
+
+
+
+
+
+
+
