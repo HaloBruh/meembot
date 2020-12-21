@@ -13,7 +13,7 @@ exports.run = (client, message, args) => {
   let uptime = `${days} days, ${hours} hours, ${minutes} minutes`;
   let embed = new Discord.MessageEmbed()
     .setColor("#E7A700")
-    .setTitle("Ukqzn & Fozen")
+    .setTitle("Lrows & Fozen")
     .addField("🖥️ • Status", "Online", true)
     .addField("🕐 • Uptime", uptime, true)
     .addField("💠 • Prefix", prefix, true)
